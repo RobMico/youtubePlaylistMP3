@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "youtube-dl-exec": "^2.4.6"
+  }
+}
