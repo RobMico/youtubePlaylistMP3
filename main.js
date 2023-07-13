@@ -34,7 +34,8 @@ async function program() {
     if (!outputDir) {
         outputDir = './audio'
     }
-
+    Readline.close();
+    
     // Создаем объект youtubedl для загрузки плейлиста
     try {
         const playlist = await youtubedl(playlistUrl, {
